@@ -12,6 +12,7 @@ public class NavigationHepler extends HelperBase {
             return;
         }
             click(By.linkText("home"));
+        System.out.println();
     }
 
 
