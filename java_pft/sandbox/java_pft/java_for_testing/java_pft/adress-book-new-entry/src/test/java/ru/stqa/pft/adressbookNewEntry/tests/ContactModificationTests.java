@@ -28,7 +28,7 @@ public class ContactModificationTests extends TestBase{
         app.getNavigationHepler().goToHomePage();
         List<ContactData> after = app.getContactHelper().getContactsList();
         Assert.assertEquals(after.size(), before.size());
-        System.out.println("efef");
+     
 
 
     }
