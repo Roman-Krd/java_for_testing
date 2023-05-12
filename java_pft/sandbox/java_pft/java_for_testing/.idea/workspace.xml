@@ -7,9 +7,8 @@
     <list default="true" id="fade9fac-2d23-4264-a1ed-d4c82d04fdef" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/java_pft/adress-book-new-entry/src/test/java/ru/stqa/pft/adressbookNewEntry/appmanager/ContactHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/java_pft/adress-book-new-entry/src/test/java/ru/stqa/pft/adressbookNewEntry/appmanager/ContactHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_pft/adress-book-new-entry/src/test/java/ru/stqa/pft/adressbookNewEntry/tests/ContactCreationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/java_pft/adress-book-new-entry/src/test/java/ru/stqa/pft/adressbookNewEntry/tests/ContactCreationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_pft/adress-book-new-entry/src/test/java/ru/stqa/pft/adressbookNewEntry/model/ContactData.java" beforeDir="false" afterPath="$PROJECT_DIR$/java_pft/adress-book-new-entry/src/test/java/ru/stqa/pft/adressbookNewEntry/model/ContactData.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/java_pft/adress-book-new-entry/src/test/java/ru/stqa/pft/adressbookNewEntry/tests/ContactDeletionTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/java_pft/adress-book-new-entry/src/test/java/ru/stqa/pft/adressbookNewEntry/tests/ContactDeletionTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_pft/adress-book-new-entry/src/test/java/ru/stqa/pft/adressbookNewEntry/tests/ContactModificationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/java_pft/adress-book-new-entry/src/test/java/ru/stqa/pft/adressbookNewEntry/tests/ContactModificationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +66,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.ContactCreationTests">
+  <component name="RunManager" selected="TestNG.ContactDeletionTests">
     <configuration name="ContactCreationTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -144,9 +143,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.ContactDeletionTests" />
         <item itemvalue="TestNG.ContactCreationTests" />
         <item itemvalue="TestNG.ContactModificationTests" />
-        <item itemvalue="TestNG.ContactDeletionTests" />
         <item itemvalue="Gradle.ContactCreationTests" />
       </list>
     </recent_temporary>
@@ -172,16 +171,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/java_pft/adress-book-new-entry/src/test/java/ru/stqa/pft/adressbookNewEntry/tests/ContactCreationTests.java</url>
-          <line>25</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
