@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fade9fac-2d23-4264-a1ed-d4c82d04fdef" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_pft/adress-book-new-entry/src/test/java/ru/stqa/pft/adressbookNewEntry/appmanager/ContactHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/java_pft/adress-book-new-entry/src/test/java/ru/stqa/pft/adressbookNewEntry/appmanager/ContactHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_pft/adress-book-new-entry/src/test/java/ru/stqa/pft/adressbookNewEntry/tests/ContactCreationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/java_pft/adress-book-new-entry/src/test/java/ru/stqa/pft/adressbookNewEntry/tests/ContactCreationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_pft/adress-book-new-entry/src/test/java/ru/stqa/pft/adressbookNewEntry/tests/ContactDeletionTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/java_pft/adress-book-new-entry/src/test/java/ru/stqa/pft/adressbookNewEntry/tests/ContactDeletionTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_pft/adress-book-new-entry/src/test/java/ru/stqa/pft/adressbookNewEntry/tests/ContactModificationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/java_pft/adress-book-new-entry/src/test/java/ru/stqa/pft/adressbookNewEntry/tests/ContactModificationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

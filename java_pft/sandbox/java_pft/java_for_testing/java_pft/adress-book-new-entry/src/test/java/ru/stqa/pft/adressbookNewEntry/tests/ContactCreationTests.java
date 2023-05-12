@@ -12,7 +12,7 @@ public class ContactCreationTests extends TestBase {
   @Test
   public void testAddressBookNewEntry() {
     app.getNavigationHepler().goToHomePage();
-    List<ContactData> before = app.getContactHelper().getContactsList();
+    List<String> before = app.getContactHelper().getContactsList();
     app.getContactHelper().gotoNewEntryPage();
     app.getContactHelper().fillContactForm(new ContactData("Dimitri", "Vasilievich", "Dima", "Test1"), true);
     app.getContactHelper().addExistingGroup("Test1");
@@ -22,7 +22,7 @@ public class ContactCreationTests extends TestBase {
     app.getContactHelper().addHomeInfo("999");
     app.getContactHelper().addNewEntryButton();
     app.getNavigationHepler().goToHomePage();
-    List<ContactData> after = app.getContactHelper().getContactsList();
+    List<String> after = app.getContactHelper().getContactsList();
     Assert.assertEquals(after.size(), before.size()+1);
   }
 

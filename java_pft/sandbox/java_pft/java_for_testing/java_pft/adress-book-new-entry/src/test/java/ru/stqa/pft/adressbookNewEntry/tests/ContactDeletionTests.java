@@ -17,14 +17,14 @@ public class ContactDeletionTests extends TestBase{
       app.getNavigationHepler().goToHomePage();
     }
 
-    List<ContactData> before = app.getContactHelper().getContactsList();
+    List<String> before = app.getContactHelper().getContactsList();
     app.getContactHelper().selectEntryToDelete(before.size()-1);
     app.getContactHelper().checkboxEntryToDelete();
     app.getContactHelper().deleteEntrySelected();
     Thread.sleep(2000);
     app.getNavigationHepler().goToHomePage();
     Thread.sleep(2000);
-    List<ContactData> after = app.getContactHelper().getContactsList();
+    List<String> after = app.getContactHelper().getContactsList();
     Assert.assertEquals(after.size(), before.size()-1);
   }
 
